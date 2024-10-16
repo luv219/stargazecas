@@ -1,0 +1,625 @@
+[
+    {
+        "name": "Orion",
+        "stars": [
+            {"name": "Betelgeuse", "ra": 88.7929, "dec": 7.4071},
+            {"name": "Bellatrix", "ra": 81.2828, "dec": 6.3497},
+            {"name": "Alnilam", "ra": 84.0534, "dec": -1.2019},
+            {"name": "Rigel", "ra": 78.6345, "dec": -8.2016},
+            {"name": "Mintaka", "ra": 83.0017, "dec": -0.2991},
+            {"name": "Saiph", "ra": 86.9391, "dec": -9.6696}
+        ],
+        "lines": [
+            {"from": "Betelgeuse", "to": "Bellatrix"},
+            {"from": "Bellatrix", "to": "Alnilam"},
+            {"from": "Alnilam", "to": "Rigel"},
+            {"from": "Mintaka", "to": "Alnilam"},
+            {"from": "Saiph", "to": "Rigel"}
+        ]
+    },
+    {
+        "name": "Cassiopeia",
+        "stars": [
+            {"name": "Schedar", "ra": 10.126, "dec": 56.537},
+            {"name": "Caph", "ra": 2.293, "dec": 59.149},
+            {"name": "Gamma Cassiopeiae", "ra": 14.177, "dec": 60.716},
+            {"name": "Ruchbah", "ra": 5.883, "dec": 60.235},
+            {"name": "Segin", "ra": 1.430, "dec": 63.067}
+        ],
+        "lines": [
+            {"from": "Schedar", "to": "Caph"},
+            {"from": "Caph", "to": "Gamma Cassiopeiae"},
+            {"from": "Schedar", "to": "Ruchbah"},
+            {"from": "Ruchbah", "to": "Segin"}
+        ]
+    },
+    {
+        "name": "Ursa Major",
+        "stars": [
+            {"name": "Dubhe", "ra": 165.931, "dec": 61.751},
+            {"name": "Merak", "ra": 165.460, "dec": 56.382},
+            {"name": "Phecda", "ra": 177.264, "dec": 53.694},
+            {"name": "Megrez", "ra": 183.857, "dec": 57.032},
+            {"name": "Alioth", "ra": 193.507, "dec": 55.959},
+            {"name": "Mizar", "ra": 200.982, "dec": 54.925},
+            {"name": "Alkaid", "ra": 206.885, "dec": 49.313}
+        ],
+        "lines": [
+            {"from": "Dubhe", "to": "Merak"},
+            {"from": "Merak", "to": "Phecda"},
+            {"from": "Phecda", "to": "Megrez"},
+            {"from": "Megrez", "to": "Alioth"},
+            {"from": "Alioth", "to": "Mizar"},
+            {"from": "Mizar", "to": "Alkaid"}
+        ]
+    },
+    {
+        "name": "Scorpius",
+        "stars": [
+            {"name": "Antares", "ra": 247.351, "dec": -26.432},
+            {"name": "Shaula", "ra": 263.402, "dec": -37.103},
+            {"name": "Sargas", "ra": 269.151, "dec": -42.997},
+            {"name": "Dschubba", "ra": 243.586, "dec": -16.612},
+            {"name": "Fang", "ra": 241.702, "dec": -19.805},
+            {"name": "Al Niyat", "ra": 248.971, "dec": -25.460}
+        ],
+        "lines": [
+            {"from": "Antares", "to": "Shaula"},
+            {"from": "Shaula", "to": "Sargas"},
+            {"from": "Antares", "to": "Dschubba"},
+            {"from": "Dschubba", "to": "Fang"},
+            {"from": "Antares", "to": "Al Niyat"}
+        ]
+    },
+    {
+        "name": "Cygnus",
+        "stars": [
+            {"name": "Deneb", "ra": 310.357, "dec": 45.280},
+            {"name": "Sadr", "ra": 305.557, "dec": 40.256},
+            {"name": "Gienah", "ra": 295.024, "dec": 33.998},
+            {"name": "Albireo", "ra": 292.679, "dec": 27.959},
+            {"name": "Rukh", "ra": 310.800, "dec": 43.450}
+        ],
+        "lines": [
+            {"from": "Deneb", "to": "Sadr"},
+            {"from": "Sadr", "to": "Gienah"},
+            {"from": "Gienah", "to": "Albireo"},
+            {"from": "Deneb", "to": "Rukh"}
+        ]
+    },
+    {
+        "name": "Taurus",
+        "stars": [
+            {"name": "Aldebaran", "ra": 68.980, "dec": 16.509},
+            {"name": "Elnath", "ra": 81.572, "dec": 28.607},
+            {"name": "Gamma Tauri", "ra": 70.510, "dec": 15.596},
+            {"name": "Theta Tauri", "ra": 67.625, "dec": 15.918},
+            {"name": "Kappa Tauri", "ra": 63.625, "dec": 12.458}
+        ],
+        "lines": [
+            {"from": "Aldebaran", "to": "Gamma Tauri"},
+            {"from": "Gamma Tauri", "to": "Theta Tauri"},
+            {"from": "Aldebaran", "to": "Elnath"},
+            {"from": "Theta Tauri", "to": "Kappa Tauri"}
+        ]
+    },
+    {
+        "name": "Leo",
+        "stars": [
+            {"name": "Regulus", "ra": 152.092, "dec": 11.967},
+            {"name": "Denebola", "ra": 177.266, "dec": 14.572},
+            {"name": "Algieba", "ra": 154.993, "dec": 19.841},
+            {"name": "Zosma", "ra": 176.190, "dec": 20.524},
+            {"name": "Chort", "ra": 172.835, "dec": 15.429}
+        ],
+        "lines": [
+            {"from": "Regulus", "to": "Algieba"},
+            {"from": "Algieba", "to": "Denebola"},
+            {"from": "Denebola", "to": "Zosma"},
+            {"from": "Regulus", "to": "Chort"}
+        ]
+    },
+    {
+        "name": "Andromeda",
+        "stars": [
+            {"name": "Alpheratz", "ra": 2.097, "dec": 29.090},
+            {"name": "Mirach", "ra": 17.433, "dec": 35.620},
+            {"name": "Almach", "ra": 30.973, "dec": 42.329},
+            {"name": "Delta Andromedae", "ra": 26.526, "dec": 30.860},
+            {"name": "Pi Andromedae", "ra": 23.657, "dec": 33.322}
+        ],
+        "lines": [
+            {"from": "Alpheratz", "to": "Mirach"},
+            {"from": "Mirach", "to": "Almach"},
+            {"from": "Mirach", "to": "Delta Andromedae"},
+            {"from": "Delta Andromedae", "to": "Pi Andromedae"}
+        ]
+    },
+    {
+        "name": "Lyra",
+        "stars": [
+            {"name": "Vega", "ra": 279.234, "dec": 38.783},
+            {"name": "Sheliak", "ra": 283.881, "dec": 33.362},
+            {"name": "Sulafat", "ra": 282.519, "dec": 32.690},
+            {"name": "Delta Lyrae", "ra": 281.798, "dec": 36.597}
+        ],
+        "lines": [
+            {"from": "Vega", "to": "Sheliak"},
+            {"from": "Sheliak", "to": "Sulafat"},
+            {"from": "Vega", "to": "Delta Lyrae"}
+        ]
+    },
+    {
+        "name": "Pegasus",
+        "stars": [
+            {"name": "Markab", "ra": 346.190, "dec": 15.205},
+            {"name": "Scheat", "ra": 349.291, "dec": 28.029},
+            {"name": "Algenib", "ra": 348.625, "dec": 15.345},
+            {"name": "Enif", "ra": 345.943, "dec": 9.875}
+        ],
+        "lines": [
+            {"from": "Markab", "to": "Algenib"},
+            {"from": "Algenib", "to": "Scheat"},
+            {"from": "Scheat", "to": "Enif"}
+        ]
+    },
+    {
+        "name": "Aquarius",
+        "stars": [
+            {"name": "Sadalmelik", "ra": 322.889, "dec": -0.319},
+            {"name": "Sadalsuud", "ra": 324.402, "dec": -5.571},
+            {"name": "Albali", "ra": 310.358, "dec": -9.495},
+            {"name": "Skat", "ra": 328.482, "dec": -10.303},
+            {"name": "Ancha", "ra": 321.608, "dec": -7.741}
+        ],
+        "lines": [
+            {"from": "Sadalmelik", "to": "Sadalsuud"},
+            {"from": "Sadalsuud", "to": "Albali"},
+            {"from": "Albali", "to": "Skat"},
+            {"from": "Skat", "to": "Ancha"}
+        ]
+    },
+    {
+        "name": "Draco",
+        "stars": [
+            {"name": "Thuban", "ra": 214.099, "dec": 64.375},
+            {"name": "Eltanin", "ra": 270.159, "dec": 51.488},
+            {"name": "Rastaban", "ra": 268.402, "dec": 52.301},
+            {"name": "Edasich", "ra": 239.784, "dec": 58.565},
+            {"name": "Grumium", "ra": 263.733, "dec": 56.872},
+            {"name": "Kuma", "ra": 277.392, "dec": 55.546}
+        ],
+        "lines": [
+            {"from": "Thuban", "to": "Eltanin"},
+            {"from": "Eltanin", "to": "Rastaban"},
+            {"from": "Rastaban", "to": "Grumium"},
+            {"from": "Grumium", "to": "Edasich"},
+            {"from": "Kuma", "to": "Eltanin"}
+        ]
+    },
+    {
+        "name": "Perseus",
+        "stars": [
+            {"name": "Mirfak", "ra": 51.080, "dec": 49.861},
+            {"name": "Algol", "ra": 47.042, "dec": 40.955},
+            {"name": "Atik", "ra": 41.091, "dec": 43.823},
+            {"name": "Menkib", "ra": 56.871, "dec": 42.335},
+            {"name": "Zeta Persei", "ra": 52.644, "dec": 31.035},
+            {"name": "Delta Persei", "ra": 49.091, "dec": 47.031}
+        ],
+        "lines": [
+            {"from": "Mirfak", "to": "Algol"},
+            {"from": "Algol", "to": "Atik"},
+            {"from": "Atik", "to": "Menkib"},
+            {"from": "Mirfak", "to": "Delta Persei"},
+            {"from": "Delta Persei", "to": "Zeta Persei"}
+        ]
+    },
+    {
+        "name": "Pisces",
+        "stars": [
+            {"name": "Alrescha", "ra": 2.034, "dec": 2.763},
+            {"name": "Eta Piscium", "ra": 15.735, "dec": 15.345},
+            {"name": "Gamma Piscium", "ra": 6.031, "dec": 3.152},
+            {"name": "Omega Piscium", "ra": 1.525, "dec": 6.572},
+            {"name": "Alpha Piscium", "ra": 1.196, "dec": 0.723}
+        ],
+        "lines": [
+            {"from": "Alrescha", "to": "Eta Piscium"},
+            {"from": "Eta Piscium", "to": "Gamma Piscium"},
+            {"from": "Gamma Piscium", "to": "Omega Piscium"},
+            {"from": "Omega Piscium", "to": "Alpha Piscium"}
+        ]
+    },
+    {
+        "name": "Sagittarius",
+        "stars": [
+            {"name": "Kaus Australis", "ra": 283.816, "dec": -34.384},
+            {"name": "Nunki", "ra": 283.816, "dec": -26.296},
+            {"name": "Ascella", "ra": 290.105, "dec": -29.880},
+            {"name": "Kaus Media", "ra": 279.231, "dec": -30.417},
+            {"name": "Kaus Borealis", "ra": 268.877, "dec": -25.267},
+            {"name": "Polis", "ra": 271.452, "dec": -22.448}
+        ],
+        "lines": [
+            {"from": "Kaus Australis", "to": "Nunki"},
+            {"from": "Nunki", "to": "Ascella"},
+            {"from": "Ascella", "to": "Kaus Media"},
+            {"from": "Kaus Media", "to": "Kaus Borealis"},
+            {"from": "Kaus Borealis", "to": "Polis"}
+        ]
+    },
+    {
+        "name": "Cepheus",
+        "stars": [
+            {"name": "Alderamin", "ra": 319.644, "dec": 62.585},
+            {"name": "Alfirk", "ra": 325.878, "dec": 61.830},
+            {"name": "Errai", "ra": 323.369, "dec": 77.588},
+            {"name": "Zeta Cephei", "ra": 333.202, "dec": 58.849},
+            {"name": "Iota Cephei", "ra": 346.191, "dec": 66.417}
+        ],
+        "lines": [
+            {"from": "Alderamin", "to": "Alfirk"},
+            {"from": "Alfirk", "to": "Errai"},
+            {"from": "Alderamin", "to": "Zeta Cephei"},
+            {"from": "Zeta Cephei", "to": "Iota Cephei"}
+        ]
+    },
+    {
+        "name": "Phoenix",
+        "stars": [
+            {"name": "Ankaa", "ra": 6.597, "dec": -42.306},
+            {"name": "Beta Phoenicis", "ra": 18.397, "dec": -46.250},
+            {"name": "Gamma Phoenicis", "ra": 27.869, "dec": -43.319},
+            {"name": "Zeta Phoenicis", "ra": 18.096, "dec": -44.446},
+            {"name": "Delta Phoenicis", "ra": 12.041, "dec": -52.284}
+        ],
+        "lines": [
+            {"from": "Ankaa", "to": "Beta Phoenicis"},
+            {"from": "Beta Phoenicis", "to": "Gamma Phoenicis"},
+            {"from": "Gamma Phoenicis", "to": "Zeta Phoenicis"},
+            {"from": "Ankaa", "to": "Delta Phoenicis"}
+        ]
+    },
+    {
+        "name": "Hercules",
+        "stars": [
+            {"name": "Rasalgethi", "ra": 265.868, "dec": 14.391},
+            {"name": "Kornephoros", "ra": 252.166, "dec": 21.489},
+            {"name": "Zeta Herculis", "ra": 247.556, "dec": 31.602},
+            {"name": "Pi Herculis", "ra": 263.054, "dec": 36.199},
+            {"name": "Eta Herculis", "ra": 254.417, "dec": 30.233}
+        ],
+        "lines": [
+            {"from": "Rasalgethi", "to": "Kornephoros"},
+            {"from": "Kornephoros", "to": "Zeta Herculis"},
+            {"from": "Zeta Herculis", "to": "Eta Herculis"},
+            {"from": "Pi Herculis", "to": "Eta Herculis"}
+        ]
+    },
+    {
+        "name": "Canis Major",
+        "stars": [
+            {"name": "Sirius", "ra": 101.287, "dec": -16.716},
+            {"name": "Adhara", "ra": 104.656, "dec": -29.867},
+            {"name": "Wezen", "ra": 107.187, "dec": -26.393},
+            {"name": "Aludra", "ra": 104.655, "dec": -29.867},
+            {"name": "Mirzam", "ra": 95.987, "dec": -17.955}
+        ],
+        "lines": [
+            {"from": "Sirius", "to": "Adhara"},
+            {"from": "Adhara", "to": "Wezen"},
+            {"from": "Wezen", "to": "Aludra"},
+            {"from": "Sirius", "to": "Mirzam"}
+        ]
+    },
+    {
+        "name": "Vela",
+        "stars": [
+            {"name": "Suhail", "ra": 136.999, "dec": -43.432},
+            {"name": "Gamma Velorum", "ra": 122.383, "dec": -47.337},
+            {"name": "Delta Velorum", "ra": 131.175, "dec": -54.707},
+            {"name": "Kappa Velorum", "ra": 133.139, "dec": -42.912},
+            {"name": "Lambda Velorum", "ra": 140.528, "dec": -42.086}
+        ],
+        "lines": [
+            {"from": "Suhail", "to": "Gamma Velorum"},
+            {"from": "Gamma Velorum", "to": "Delta Velorum"},
+            {"from": "Suhail", "to": "Kappa Velorum"},
+            {"from": "Kappa Velorum", "to": "Lambda Velorum"}
+        ]
+    },
+    {
+        "name": "Crux",
+        "stars": [
+            {"name": "Acrux", "ra": 186.650, "dec": -63.099},
+            {"name": "Mimosa", "ra": 191.930, "dec": -59.688},
+            {"name": "Gacrux", "ra": 173.945, "dec": -57.844},
+            {"name": "Delta Crucis", "ra": 182.089, "dec": -58.747}
+        ],
+        "lines": [
+            {"from": "Acrux", "to": "Mimosa"},
+            {"from": "Mimosa", "to": "Gacrux"},
+            {"from": "Acrux", "to": "Delta Crucis"},
+            {"from": "Delta Crucis", "to": "Gacrux"}
+        ]
+    },
+    {
+        "name": "Aquila",
+        "stars": [
+            {"name": "Altair", "ra": 297.695, "dec": 8.868},
+            {"name": "Tarazed", "ra": 296.565, "dec": 10.613},
+            {"name": "Alshain", "ra": 295.025, "dec": 6.406},
+            {"name": "Deneb el Okab", "ra": 291.375, "dec": 13.440},
+            {"name": "Eta Aquilae", "ra": 297.695, "dec": 1.774}
+        ],
+        "lines": [
+            {"from": "Altair", "to": "Tarazed"},
+            {"from": "Tarazed", "to": "Deneb el Okab"},
+            {"from": "Altair", "to": "Alshain"},
+            {"from": "Alshain", "to": "Eta Aquilae"}
+        ]
+    },
+    {
+        "name": "Cancer",
+        "stars": [
+            {"name": "Acubens", "ra": 131.175, "dec": 11.967},
+            {"name": "Altarf", "ra": 128.896, "dec": 9.185},
+            {"name": "Asellus Borealis", "ra": 124.128, "dec": 21.465},
+            {"name": "Asellus Australis", "ra": 123.605, "dec": 19.840},
+            {"name": "Iota Cancri", "ra": 131.691, "dec": 28.260}
+        ],
+        "lines": [
+            {"from": "Acubens", "to": "Altarf"},
+            {"from": "Altarf", "to": "Asellus Borealis"},
+            {"from": "Asellus Borealis", "to": "Asellus Australis"},
+            {"from": "Asellus Australis", "to": "Iota Cancri"}
+        ]
+    },
+    {
+        "name": "Centaurus",
+        "stars": [
+            {"name": "Alpha Centauri", "ra": 219.902, "dec": -60.835},
+            {"name": "Beta Centauri", "ra": 210.955, "dec": -60.373},
+            {"name": "Menkent", "ra": 193.507, "dec": -36.312},
+            {"name": "Delta Centauri", "ra": 187.791, "dec": -50.092},
+            {"name": "Gamma Centauri", "ra": 191.93, "dec": -48.959}
+        ],
+        "lines": [
+            {"from": "Alpha Centauri", "to": "Beta Centauri"},
+            {"from": "Beta Centauri", "to": "Gamma Centauri"},
+            {"from": "Gamma Centauri", "to": "Delta Centauri"},
+            {"from": "Alpha Centauri", "to": "Menkent"}
+        ]
+    },
+    {
+        "name": "Corona Borealis",
+        "stars": [
+            {"name": "Alphecca", "ra": 233.671, "dec": 26.714},
+            {"name": "Nusakan", "ra": 228.875, "dec": 29.742},
+            {"name": "Theta Coronae Borealis", "ra": 236.014, "dec": 31.598},
+            {"name": "Gamma Coronae Borealis", "ra": 235.685, "dec": 26.670},
+            {"name": "Delta Coronae Borealis", "ra": 240.030, "dec": 26.869}
+        ],
+        "lines": [
+            {"from": "Alphecca", "to": "Nusakan"},
+            {"from": "Nusakan", "to": "Theta Coronae Borealis"},
+            {"from": "Theta Coronae Borealis", "to": "Gamma Coronae Borealis"},
+            {"from": "Gamma Coronae Borealis", "to": "Delta Coronae Borealis"}
+        ]
+    },
+    {
+        "name": "Equuleus",
+        "stars": [
+            {"name": "Kitalpha", "ra": 309.387, "dec": 5.246},
+            {"name": "Delta Equulei", "ra": 310.429, "dec": 10.837},
+            {"name": "Gamma Equulei", "ra": 312.185, "dec": 9.506},
+            {"name": "Beta Equulei", "ra": 308.778, "dec": 6.688}
+        ],
+        "lines": [
+            {"from": "Kitalpha", "to": "Delta Equulei"},
+            {"from": "Delta Equulei", "to": "Gamma Equulei"},
+            {"from": "Gamma Equulei", "to": "Beta Equulei"}
+        ]
+    },
+    {
+        "name": "Indus",
+        "stars": [
+            {"name": "Alpha Indi", "ra": 318.234, "dec": -47.288},
+            {"name": "Beta Indi", "ra": 323.495, "dec": -58.637},
+            {"name": "Gamma Indi", "ra": 321.618, "dec": -54.585},
+            {"name": "Delta Indi", "ra": 317.342, "dec": -51.891}
+        ],
+        "lines": [
+            {"from": "Alpha Indi", "to": "Beta Indi"},
+            {"from": "Beta Indi", "to": "Gamma Indi"},
+            {"from": "Gamma Indi", "to": "Delta Indi"}
+        ]
+    },
+    {
+        "name": "Lupus",
+        "stars": [
+            {"name": "Alpha Lupi", "ra": 220.482, "dec": -47.384},
+            {"name": "Beta Lupi", "ra": 224.790, "dec": -43.134},
+            {"name": "Gamma Lupi", "ra": 231.049, "dec": -41.840},
+            {"name": "Delta Lupi", "ra": 232.571, "dec": -40.066},
+            {"name": "Epsilon Lupi", "ra": 235.376, "dec": -44.889}
+        ],
+        "lines": [
+            {"from": "Alpha Lupi", "to": "Beta Lupi"},
+            {"from": "Beta Lupi", "to": "Gamma Lupi"},
+            {"from": "Gamma Lupi", "to": "Delta Lupi"},
+            {"from": "Delta Lupi", "to": "Epsilon Lupi"}
+        ]
+    },
+    {
+        "name": "Ophiuchus",
+        "stars": [
+            {"name": "Rasalhague", "ra": 263.733, "dec": 12.560},
+            {"name": "Cebalrai", "ra": 263.054, "dec": 4.570},
+            {"name": "Sabik", "ra": 263.054, "dec": -15.724},
+            {"name": "Yed Prior", "ra": 251.492, "dec": -3.690},
+            {"name": "Zeta Ophiuchi", "ra": 249.289, "dec": -10.560}
+        ],
+        "lines": [
+            {"from": "Rasalhague", "to": "Cebalrai"},
+            {"from": "Cebalrai", "to": "Yed Prior"},
+            {"from": "Yed Prior", "to": "Sabik"},
+            {"from": "Sabik", "to": "Zeta Ophiuchi"}
+        ]
+    },
+    {
+        "name": "Puppis",
+        "stars": [
+            {"name": "Naos", "ra": 120.896, "dec": -40.003},
+            {"name": "Tureis", "ra": 118.054, "dec": -24.304},
+            {"name": "Rho Puppis", "ra": 122.383, "dec": -24.871},
+            {"name": "Pi Puppis", "ra": 116.314, "dec": -35.482}
+        ],
+        "lines": [
+            {"from": "Naos", "to": "Tureis"},
+            {"from": "Tureis", "to": "Rho Puppis"},
+            {"from": "Rho Puppis", "to": "Pi Puppis"}
+        ]
+    },
+    {
+        "name": "Sculptor",
+        "stars": [
+            {"name": "Alpha Sculptoris", "ra": 8.101, "dec": -29.301},
+            {"name": "Beta Sculptoris", "ra": 12.303, "dec": -33.801},
+            {"name": "Gamma Sculptoris", "ra": 10.972, "dec": -32.202},
+            {"name": "Delta Sculptoris", "ra": 6.396, "dec": -28.965}
+        ],
+        "lines": [
+            {"from": "Alpha Sculptoris", "to": "Beta Sculptoris"},
+            {"from": "Beta Sculptoris", "to": "Gamma Sculptoris"},
+            {"from": "Gamma Sculptoris", "to": "Delta Sculptoris"}
+        ]
+    },
+    {
+        "name": "Serpens",
+        "stars": [
+            {"name": "Unukalhai", "ra": 236.546, "dec": 6.425},
+            {"name": "Xi Serpentis", "ra": 238.771, "dec": 12.693},
+            {"name": "Alya", "ra": 247.555, "dec": -2.330},
+            {"name": "Nu Serpentis", "ra": 249.746, "dec": 5.683}
+        ],
+        "lines": [
+            {"from": "Unukalhai", "to": "Xi Serpentis"},
+            {"from": "Xi Serpentis", "to": "Nu Serpentis"},
+            {"from": "Nu Serpentis", "to": "Alya"}
+        ]
+    },
+    {
+        "name": "Aries",
+        "stars": [
+            {"name": "Hamal", "ra": 31.793, "dec": 23.462},
+            {"name": "Sheratan", "ra": 28.660, "dec": 20.808},
+            {"name": "Mesarthim", "ra": 28.658, "dec": 19.877},
+            {"name": "41 Arietis", "ra": 40.166, "dec": 15.191},
+            {"name": "Botein", "ra": 38.022, "dec": 9.460}
+        ],
+        "lines": [
+            {"from": "Hamal", "to": "Sheratan"},
+            {"from": "Sheratan", "to": "Mesarthim"},
+            {"from": "Mesarthim", "to": "41 Arietis"},
+            {"from": "41 Arietis", "to": "Botein"}
+        ]
+    },
+    {
+        "name": "Canis Minor",
+        "stars": [
+            {"name": "Procyon", "ra": 114.825, "dec": 5.225},
+            {"name": "Gomeisa", "ra": 118.054, "dec": 8.933},
+            {"name": "Beta Canis Minoris", "ra": 113.021, "dec": 2.087},
+            {"name": "Gamma Canis Minoris", "ra": 115.398, "dec": 3.570},
+            {"name": "HD 66141", "ra": 120.915, "dec": 5.084}
+        ],
+        "lines": [
+            {"from": "Procyon", "to": "Gomeisa"},
+            {"from": "Procyon", "to": "Beta Canis Minoris"},
+            {"from": "Gomeisa", "to": "Gamma Canis Minoris"},
+            {"from": "Gamma Canis Minoris", "to": "HD 66141"}
+        ]
+    },
+    {
+        "name": "Lynx",
+        "stars": [
+            {"name": "Alpha Lyncis", "ra": 132.472, "dec": 34.987},
+            {"name": "38 Lyncis", "ra": 138.126, "dec": 36.182},
+            {"name": "31 Lyncis", "ra": 128.184, "dec": 43.778},
+            {"name": "Zeta Lyncis", "ra": 138.794, "dec": 43.217},
+            {"name": "HD 80719", "ra": 140.524, "dec": 44.402}
+        ],
+        "lines": [
+            {"from": "Alpha Lyncis", "to": "38 Lyncis"},
+            {"from": "38 Lyncis", "to": "Zeta Lyncis"},
+            {"from": "Zeta Lyncis", "to": "31 Lyncis"},
+            {"from": "Zeta Lyncis", "to": "HD 80719"}
+        ]
+    },
+    {
+        "name": "Hydra",
+        "stars": [
+            {"name": "Alphard", "ra": 141.896, "dec": -8.658},
+            {"name": "Gamma Hydrae", "ra": 169.619, "dec": 3.413},
+            {"name": "Delta Hydrae", "ra": 177.406, "dec": 5.650},
+            {"name": "Zeta Hydrae", "ra": 155.580, "dec": 5.680},
+            {"name": "Mu Hydrae", "ra": 165.381, "dec": 3.573}
+        ],
+        "lines": [
+            {"from": "Alphard", "to": "Gamma Hydrae"},
+            {"from": "Gamma Hydrae", "to": "Delta Hydrae"},
+            {"from": "Alphard", "to": "Zeta Hydrae"},
+            {"from": "Zeta Hydrae", "to": "Mu Hydrae"}
+        ]
+    },
+    {
+        "name": "Lacerta",
+        "stars": [
+            {"name": "Alpha Lacertae", "ra": 344.412, "dec": 50.461},
+            {"name": "4 Lacertae", "ra": 344.412, "dec": 37.418},
+            {"name": "Beta Lacertae", "ra": 342.145, "dec": 52.541},
+            {"name": "5 Lacertae", "ra": 345.256, "dec": 56.803},
+            {"name": "6 Lacertae", "ra": 347.419, "dec": 40.236}
+        ],
+        "lines": [
+            {"from": "Alpha Lacertae", "to": "4 Lacertae"},
+            {"from": "4 Lacertae", "to": "Beta Lacertae"},
+            {"from": "Beta Lacertae", "to": "5 Lacertae"},
+            {"from": "Alpha Lacertae", "to": "6 Lacertae"}
+        ]
+    },
+    {
+        "name": "Pavo",
+        "stars": [
+            {"name": "Alpha Pavonis", "ra": 306.411, "dec": -56.735},
+            {"name": "Beta Pavonis", "ra": 299.689, "dec": -66.200},
+            {"name": "Delta Pavonis", "ra": 316.232, "dec": -66.200},
+            {"name": "Gamma Pavonis", "ra": 300.160, "dec": -65.215},
+            {"name": "Zeta Pavonis", "ra": 304.512, "dec": -64.781}
+        ],
+        "lines": [
+            {"from": "Alpha Pavonis", "to": "Beta Pavonis"},
+            {"from": "Beta Pavonis", "to": "Delta Pavonis"},
+            {"from": "Gamma Pavonis", "to": "Zeta Pavonis"},
+            {"from": "Alpha Pavonis", "to": "Gamma Pavonis"}
+        ]
+    },
+    {
+        "name": "Triangulum",
+        "stars": [
+            {"name": "Beta Trianguli", "ra": 34.328, "dec": 34.988},
+            {"name": "Gamma Trianguli", "ra": 33.257, "dec": 29.591},
+            {"name": "Delta Trianguli", "ra": 32.669, "dec": 30.329},
+            {"name": "Iota Trianguli", "ra": 31.530, "dec": 29.526},
+            {"name": "Epsilon Trianguli", "ra": 27.297, "dec": 33.415}
+        ],
+        "lines": [
+            {"from": "Beta Trianguli", "to": "Gamma Trianguli"},
+            {"from": "Gamma Trianguli", "to": "Delta Trianguli"},
+            {"from": "Delta Trianguli", "to": "Iota Trianguli"},
+            {"from": "Beta Trianguli", "to": "Epsilon Trianguli"}
+        ]
+    }
+]
