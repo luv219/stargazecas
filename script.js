@@ -154,6 +154,12 @@ function crossfadeToNextSound(nextConstellationName) {
 // Function to play the sound and fade in
 function playAndFadeInSound(constellationName, audioSrc) {
     const audioPlayer = document.getElementById('audio-player');
+    
+    // Try to resume AudioContext (required for iOS)
+    if (audioPlayer.context && audioPlayer.context.state === 'suspended') {
+        audioPlayer.context.resume();
+    }
+
     audioPlayer.src = audioSrc;
     
     // Highlight the next constellation
