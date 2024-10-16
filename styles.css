@@ -1,0 +1,91 @@
+/* styles.css */
+
+/* General body styling */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #000; /* Black background to simulate the night sky */
+    color: #fff;
+    font-family: Arial, sans-serif;
+    overflow: hidden; /* Prevent scrolling */
+}
+
+/* Heading styling */
+#main-heading {
+    z-index: 10; /* Ensure these elements stay above the SVG */
+    position: relative;
+    text-align: center;
+    font-size: 36px;
+    margin: 0;
+    padding: 10px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
+    z-index: 100;
+}
+
+#info-bar {
+    /*z-index: 10; /* Ensure these elements stay above the SVG */
+    position: fixed;
+    bottom: 0;
+    left: 10px;
+    color: #fff;
+    font-size: 18px;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
+    width: 100%;
+    box-sizing: border-box;
+    z-index: 100;
+}
+
+/* Controls menu styling */
+#controls-menu {
+    position: fixed;
+    top: 60px; /* Below the heading */
+    right: 20px;
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 10px;
+    border-radius: 5px;
+    z-index: 100;
+}
+
+#audio-player {
+    /* Initially hidden */
+    display: none;
+    position: fixed;
+    bottom: 40px; /* Aligns with the info bar */
+    left: 10px; /* Aligns with the left side */
+    z-index: 100;
+}
+
+#controls-menu button {
+    background-color: #fff;
+    color: #000;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#controls-menu button:hover {
+    background-color: #f00;
+    color: #fff;
+}
+
+/* Star map container styling */
+#star-map {
+    width: 100vw;  /* Full viewport width */
+    height: 100vh; /* Full viewport height */
+    position: absolute;
+    top: 0;  /* Ensure it starts from the top */
+    left: 0; /* Ensure it starts from the left */
+    overflow: hidden;
+}
+
+
+
+/* Constellation styling */
+.constellation {
+    cursor: pointer;
+}
